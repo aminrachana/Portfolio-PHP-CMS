@@ -1,0 +1,167 @@
+html{
+    scroll-behavior: smooth
+}
+body {
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: #f8f8f8;
+}
+
+nav {
+    background-color: #FF8452;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav a {
+    color: #fff;
+    font-weight: 400;
+    padding: 34px 20px;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+span, nav a:hover {
+    color:#000;
+}
+
+.hero-banner {
+    background-color: #FF9768;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.hero-banner h1 {
+    font-size: 40px;
+    margin: 10px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+section{
+    padding-bottom: 120px;
+}
+
+section .title{
+    font-size: 48px;
+    margin-top: 120px;
+    margin-bottom: 70px;
+}
+
+.description-container {
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+}
+
+.photo {
+    height: 300px;
+    width: 275px;
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-wrapper {
+    width: 33.33333%;
+}
+
+.card {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    margin: 10px;
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+}
+.card:hover{
+    box-shadow: 0px 24px 48px -13px #FF9768;
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+}
+
+.project-photo {
+    background: url('./img/placeholder_featured_image.svg') no-repeat center;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.git-link, .linkedin-link {
+    background-color: #FF8452;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.link-container .fa-brands{
+    margin-right: 10px;
+}
+
+.link-container{
+    margin-top: 30px;
+}
+
+#education .card{
+    min-height: auto;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+#education .card h3, #education .card p, #education .card span{
+    margin: 8px;
+}
+
+#education .card p{
+    color: #888;
+}
+
+#education .year{
+    border-radius: 40px;
+    padding: 13px 18px;
+    position: absolute;
+    background-color: #FF8452;
+    color: #fff;
+    margin-top: -60px !important;
+    margin-left: -90px !important;
+    font-weight: bold;
+    box-shadow: 0px 24px 48px -13px rgba(0, 0, 0, 0.05);
+}
+
+
+footer {
+    background-color: #FF8452;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px;
+    margin-top: 100px;
+}
